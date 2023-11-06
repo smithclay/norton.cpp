@@ -1,8 +1,3 @@
-openai-whisper==20230918
-transformers==4.34.0
-accelerate==0.23.0
-scipy==1.11.3
-SentencePiece==0.1.99
-datasets[audio]==2.14.5
-soundfile==0.12.1
 llama-cpp-python==0.2.11
+discord.py==2.3.2
+python-dotenv==1.0.0

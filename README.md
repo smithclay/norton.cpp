@@ -1,20 +1,18 @@
 ## norton.cpp
 
-Lightweight Emperor Norton.
+Lightweight Emperor Norton on Discord
 
 ### requirements
 
-* python
-* ffmpeg
-* model from https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_M.gguf saved to `models/`
+* python3
+* model(s) (GGUF) from https://huggingface.co/TheBloke saved to `models/`
 
-```bash
-    # on Ubuntu or Debian
-    sudo apt update && sudo apt install ffmpeg
+### running
 
-    # on Arch Linux
-    sudo pacman -S ffmpeg
+* Download a GGUF model for HuggingFace to the `models/` directory, prompt is currently tested with [Mistral-7B-Instruct-v0.1-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/blob/main/mistral-7b-instruct-v0.1.Q4_K_M.gguf)
+* Install requirements: `pip3 install -r requirements.txt`
+* Talk to Emperor Norton: `python3 llm.py Greetings Emperor!` 
 
-    # on MacOS using Homebrew (https://brew.sh/)
-    brew install ffmpeg
-``` 
+_or_
+
+* Run the Discord bot powered by Emperor Norton `DISCORD_BOT_TOKEN=... python3 bot.py`
